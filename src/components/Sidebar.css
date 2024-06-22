@@ -1,0 +1,43 @@
+/* Sidebar.css */
+.sidebar {
+  position: fixed; /* Lo fija en la ventana del navegador */
+  top: 0; /* Lo coloca en la parte superior */
+  left: 0; /* Lo coloca en el lado izquierdo */
+  width: 200px; /* Ancho del sidebar */
+  height: 100%; /* Altura completa */
+  background-color: #333; /* Color de fondo */
+  padding: 20px; /* Espaciado interno */
+  box-sizing: border-box; /* Incluye el padding en el ancho y alto */
+  color: white; /* Color del texto */
+}
+
+.Name {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar ul {
+  list-style-type: none; /* Quita los estilos de la lista */
+  padding: 0; /* Quita el padding predeterminado */
+}
+
+.sidebar ul li {
+  margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+}
+
+.sidebar button {
+  display: block; /* Lo convierte en un bloque para que ocupe todo el ancho */
+  margin-top: 20px; /* Espaciado superior */
+  padding: 10px 20px; /* Padding interior */
+  background-color: #164fa4; /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  border: none; /* Quita el borde */
+  cursor: pointer; /* Cambia el cursor al pasar sobre él */
+}
+
+.sidebar button:hover {
+  background-color: #cc0000; /* Color de fondo al pasar sobre él */
+}
+
+.link {
+  font-family: Arial, Helvetica, sans-serif;
+}
